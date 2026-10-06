@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayService", "src\Gatew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "src\BiddingService\BiddingService.csproj", "{B47C7123-1D8A-4599-ABDB-E0756AAB8285}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\NotificationService\NotificationService.csproj", "{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,18 @@ Global
 		{B47C7123-1D8A-4599-ABDB-E0756AAB8285}.Release|x64.Build.0 = Release|Any CPU
 		{B47C7123-1D8A-4599-ABDB-E0756AAB8285}.Release|x86.ActiveCfg = Release|Any CPU
 		{B47C7123-1D8A-4599-ABDB-E0756AAB8285}.Release|x86.Build.0 = Release|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Debug|x64.Build.0 = Debug|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Debug|x86.Build.0 = Debug|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Release|x64.ActiveCfg = Release|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Release|x64.Build.0 = Release|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,5 +124,6 @@ Global
 		{4F325320-7D34-49A3-BD87-32D2C29EA901} = {0AFA70C4-2E11-4C29-B594-18B154EDDE01}
 		{4FD80B47-D330-4315-9132-381F9B4761AC} = {0AFA70C4-2E11-4C29-B594-18B154EDDE01}
 		{B47C7123-1D8A-4599-ABDB-E0756AAB8285} = {0AFA70C4-2E11-4C29-B594-18B154EDDE01}
+		{2ECE3554-E5A4-4BF1-A38C-C01C9C49C5CB} = {0AFA70C4-2E11-4C29-B594-18B154EDDE01}
 	EndGlobalSection
 EndGlobal
