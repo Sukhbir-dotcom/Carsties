@@ -31,6 +31,7 @@ export default function Search() {
                 }
             }}
             onChange={handleChange}
+            value={value}
             type="text" 
             placeholder='Search for cars by make, model or colour'
             className='input-custom'

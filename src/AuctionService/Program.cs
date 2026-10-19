@@ -49,6 +49,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddGrpc();
 
+builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -68,3 +69,5 @@ catch (Exception ex)
 }
 
 app.Run();
+
+public partial class Program {}
