@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         service:
-          - name: 'sukhbirsaini/auction-svc'
+          - name: 'sukhbirsinghsaini/auction-svc'
             path: 'src/AuctionService'
 
     steps:
