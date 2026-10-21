@@ -16,15 +16,15 @@ jobs:
           - name: 'sukhbirsinghsaini/search-svc'
             path: 'src/SearchService'
           - name: 'sukhbirsinghsaini/bid-svc'
-            path: 'src/BidService'
+            path: 'src/BiddingService'
           - name: 'sukhbirsinghsaini/identity-svc'
             path: 'src/IdentityService'
           - name: 'sukhbirsinghsaini/gateway-svc'
             path: 'src/GatewayService'
-          - name: 'sukhbirsinghsaini/auction-svc'
-            path: 'src/AuctionService'
-          - name: 'sukhbirsinghsaini/auction-svc'
-            path: 'src/AuctionService'
+          - name: 'sukhbirsinghsaini/notify-svc'
+            path: 'src/NotificationService'
+          - name: 'sukhbirsinghsaini/web-app'
+            path: 'src/frontend/web-app'
 
     steps:
     - name: Checkout code
