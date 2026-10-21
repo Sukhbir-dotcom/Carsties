@@ -13,6 +13,18 @@ jobs:
         service:
           - name: 'sukhbirsinghsaini/auction-svc'
             path: 'src/AuctionService'
+          - name: 'sukhbirsinghsaini/search-svc'
+            path: 'src/SearchService'
+          - name: 'sukhbirsinghsaini/bid-svc'
+            path: 'src/BidService'
+          - name: 'sukhbirsinghsaini/identity-svc'
+            path: 'src/IdentityService'
+          - name: 'sukhbirsinghsaini/gateway-svc'
+            path: 'src/GatewayService'
+          - name: 'sukhbirsinghsaini/auction-svc'
+            path: 'src/AuctionService'
+          - name: 'sukhbirsinghsaini/auction-svc'
+            path: 'src/AuctionService'
 
     steps:
     - name: Checkout code
