@@ -62,3 +62,10 @@ jobs:
         file: ${{matrix.service.path}}/Dockerfile
         push: true
         tags: ${{matrix.service.name}}:latest
+
+  apply-k8s:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
